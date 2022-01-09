@@ -1,5 +1,7 @@
-.hero {
-    background-image: url('../../../assets/img/hands.jpg') !important;
-    background-size: cover;
+.bg {
+    background-image: url("../../../assets/img/hands.jpg");
     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125%;
 }

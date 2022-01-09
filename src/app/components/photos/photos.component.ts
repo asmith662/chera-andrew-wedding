@@ -12,4 +12,12 @@ export class PhotosComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  slides = [
+    {'image': '../../../assets/img/ca3.jpg'}, 
+    {'image': '../../../assets/img/ca5.jpg'},
+    {'image': '../../../assets/img/ca6.jpg'}, 
+    {'image': '../../../assets/img/ca7.jpg'}, 
+    
+  ];
+
 }
