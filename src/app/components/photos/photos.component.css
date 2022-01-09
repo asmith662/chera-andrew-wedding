@@ -1,0 +1,16 @@
+.customDiv {
+    background-color: hsl(0, 0%, 21%);
+}
+.crop {
+    margin: auto;
+    max-width: 50%;
+    padding: -5px;
+}
+.container {
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%; 
+}
+.slideCrop {
+    padding-left: -10px;
+}
