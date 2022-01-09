@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { RouterModule, Routes } from '@angular/router';
 import { MatCarouselModule } from '@ngmodule/material-carousel';
-
+import {MatGridListModule} from '@angular/material/grid-list';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -34,6 +34,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     BrowserAnimationsModule,
     MatCarouselModule.forRoot(),
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

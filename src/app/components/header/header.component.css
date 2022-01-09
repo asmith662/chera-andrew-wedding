@@ -4,3 +4,9 @@ a.navbar-item {
 a.navbar-item:hover {
     background-color: hsl(0, 0%, 20%);
 }
+.decor {
+    font-family: 'Questrial', sans-serif;
+    color:hsl(0, 0%, 96%);
+    font-size: 16px;
+}
+

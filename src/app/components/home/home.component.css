@@ -5,3 +5,30 @@
     background-size: cover;
     height: 125%;
 }
+.wedding-info {
+    background-color: hsl(0, 0%, 21%);
+    color: hsl(0, 0%, 96%);
+}
+
+.title {
+    letter-spacing: 2.5px;
+    font-family: 'Questrial', sans-serif;
+    color:hsl(0, 0%, 96%);
+    font-size: 5vw;
+}
+.title-2 {
+    letter-spacing: 2.5px;
+    font-family: 'Questrial', sans-serif;
+    color:hsl(0, 0%, 96%);
+    font-size: 3vw;
+}
+.title-3 {
+    letter-spacing: 2.5px;
+    font-family: 'Questrial', sans-serif;
+    color:hsl(0, 0%, 96%);
+    font-size: 2vw;
+}
+.has-text-centered {
+    text-align: center !important;
+  }
+  
