@@ -1,0 +1,6 @@
+a.navbar-item {
+    color:hsl(0, 0%, 96%);
+}
+a.navbar-item:hover {
+    background-color: hsl(0, 0%, 20%);
+}

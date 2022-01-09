@@ -10,6 +10,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  color = "accent";
   @ViewChild('navBurger') navBurger: ElementRef;
   @ViewChild('navMenu') navMenu: ElementRef;
   toggleNavbar() {
