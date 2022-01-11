@@ -12,11 +12,14 @@ import { HomeComponent } from './components/home/home.component';
 import { PhotosComponent } from './components/photos/photos.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { OurStoryComponent } from './components/our-story/our-story.component';
+import { ScheduleComponent } from './components/schedule/schedule.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'photos', component: PhotosComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: 'our-story', component: OurStoryComponent },
+  { path: 'schedule',  component: ScheduleComponent }
 ]
 
 @NgModule({
@@ -27,6 +30,8 @@ const appRoutes: Routes = [
     HomeComponent,
     PhotosComponent,
     ContactComponent,
+    OurStoryComponent,
+    ScheduleComponent,
   
   ],
   imports: [

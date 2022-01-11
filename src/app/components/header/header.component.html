@@ -1,9 +1,9 @@
-<nav class="navbar is-dark decor" role="navigation" aria-label="main navigation">
+<nav class="navbar is-dark decor border" role="navigation" aria-label="main navigation" [ngStyle]="flag ? {'border-bottom-style': 'solid', 'border-width': '.1rem'} : {}">
     <div class="navbar-brand">
         <a href="/" class="navbar-item">
             <img src="assets/img/c-a.png" alt="logo" style="max-height: 50px;" class="py-1 px-2 is-dark">
         </a>
-        <a (click)="toggleNavbar()" 
+        <a (click)="toggleNavbar()"
            role="button" 
            #navBurger 
            class="navbar-burger burger" 
@@ -16,10 +16,11 @@
             <span aria-hidden="true"></span>
         </a>
     </div>
-    <div class="navbar-menu" #navMenu style="background-color: hsl(0, 0%, 21%)">
+    <div class="navbar-menu" #navMenu style="background-color: hsl(0, 0%, 21%)" [ngStyle]="!flag ? {'border-top-style': 'solid', 'border-width': '.1rem'} : {}">
         <div class="navbar-end">
             <a class="navbar-item" routerLink="/">Home</a>
-            <a class="navbar-item" routerLink="/contact">Contact</a>
+            <a class="navbar-item" routerLink="/our-story">Our Story</a>
+            <a class="navbar-item" routerLink="/schedule">Schedule</a>
             <a class="navbar-item" routerLink="/photos">Photos</a>
         </div>
     </div>

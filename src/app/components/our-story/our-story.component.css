@@ -1,0 +1,25 @@
+.has-text-centered {
+    text-align: center !important;
+    background-color: hsl(0, 0%, 21%);
+    color: hsl(0, 0%, 96%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.title-1 {
+    letter-spacing: 2.5px;
+    font-family: 'Questrial', sans-serif;
+    color:hsl(0, 0%, 96%);
+    font-size: 2.5vw;
+}
+.title-2 {
+    letter-spacing: 2.5px;
+    font-family: 'Questrial', sans-serif;
+    color:hsl(0, 0%, 96%);
+    font-size: 1.75vw;
+}
+.title-3 {
+    letter-spacing: 2.5px;
+    font-family: 'Questrial', sans-serif;
+    color:hsl(0, 0%, 96%);
+    font-size: 1.5vw;
+}
