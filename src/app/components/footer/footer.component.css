@@ -1,5 +1,12 @@
-
- #footer-main {
+footer {
+  background-color: hsl(0, 0%, 21%);
+  color:hsl(0, 0%, 96%);
+  border-top-style: solid;
+  border-width: .1rem;
+  padding: 1rem .5rem 4rem;
+  
+}
+ /* #footer-main {
   background-color: hsl(0, 0%, 21%);
   border-top-style: solid;
   border-width: .1rem;
@@ -15,15 +22,24 @@
   margin: 0 auto;
   max-width: 100%;
   
+} */
+
+.container { 
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
-
-
-section {
+/* section {
   letter-spacing: 1.5px;
     font-family: 'Questrial', sans-serif;
     color:hsl(0, 0%, 96%);
-    font-size: 1.5vw;
+    font-size: 1vw;
   padding:10px;
-}
+} */
 
+.title-2 {
+  color:hsl(0, 0%, 96%);
+  letter-spacing: 1.5px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.25vw;
+}
