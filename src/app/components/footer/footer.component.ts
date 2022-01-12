@@ -7,13 +7,22 @@ import { Component, OnInit, VERSION, ViewChild } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
   mybreakpoint: number;
+  window=window.innerHeight;
+
   constructor() { }
 
   ngOnInit(): void {
-    this.mybreakpoint = (window.innerWidth <= 400) ? 1 : 12;
+    
+    if (this.window >= 601) this.mybreakpoint = true ? 20 : 1;
+    else if (this.window <= 600) this.mybreakpoint = true ? 16 : 1;
+    else if (this.window <= 400) this.mybreakpoint = true ? 2 : 1;
+    else if (this.window <= 200) this.mybreakpoint = true ? 8 : 1;
   }
 
   handleSize(event) {
-    this.mybreakpoint = (event.target.innerWidth <= 400) ? 1 : 12;
+    if (this.window >= 601) this.mybreakpoint = true ? 20 : 1;
+    else if (this.window <= 600) this.mybreakpoint = true ? 16 : 1;
+    else if (this.window <= 400) this.mybreakpoint = true ? 2 : 1;
+    else if (this.window <= 200) this.mybreakpoint = true ? 8 : 1;
   }
 }

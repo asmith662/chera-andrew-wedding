@@ -30,5 +30,6 @@
 }
 .has-text-centered {
     text-align: center !important;
+    line-height: 1;
   }
   
