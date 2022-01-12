@@ -14,14 +14,14 @@ export class FooterComponent implements OnInit {
   ngOnInit(): void {
     
     if (this.window >= 601) this.mybreakpoint = true ? 64 : 1;
-    else if (this.window <= 600) this.mybreakpoint = true ? 48 : 1;
+    else if (this.window <= 600) this.mybreakpoint = true ? 36 : 1;
     else if (this.window <= 400) this.mybreakpoint = true ? 4 : 1;
     else if (this.window <= 200) this.mybreakpoint = true ? 1 : 4;
   }
 
   handleSize(event) {
     if (this.window >= 601) this.mybreakpoint = true ? 64 : 1;
-    else if (this.window <= 600) this.mybreakpoint = true ? 48 : 1;
+    else if (this.window <= 600) this.mybreakpoint = true ? 36 : 1;
     else if (this.window <= 400) this.mybreakpoint = true ? 4 : 1;
     else if (this.window <= 200) this.mybreakpoint = true ? 1 : 1;
   }
