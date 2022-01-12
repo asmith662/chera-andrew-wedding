@@ -17,7 +17,7 @@ export class FooterComponent implements OnInit {
     else if (this.window >= 590) this.mybreakpoint = true ? 16 : 1;
     else if (this.window >= 580) this.mybreakpoint = true ? 14 : 1;
     else if (this.window >= 570) this.mybreakpoint = true ? 13 : 1;
-    else if (this.window >= 560) this.mybreakpoint = true ? 14 : 1;
+    else if (this.window >= 560) this.mybreakpoint = true ? 20 : 1;
     else if (this.window >= 550) this.mybreakpoint = true ? 11 : 1;
     else if (this.window >= 540) this.mybreakpoint = true ? 10 : 1;
     else if (this.window >= 530) this.mybreakpoint = true ? 9 : 1;
@@ -29,7 +29,7 @@ export class FooterComponent implements OnInit {
     else if (this.window >= 590) this.mybreakpoint = true ? 16 : 1;
     else if (this.window >= 580) this.mybreakpoint = true ? 14 : 1;
     else if (this.window >= 570) this.mybreakpoint = true ? 13 : 1;
-    else if (this.window >= 560) this.mybreakpoint = true ? 14 : 1;
+    else if (this.window >= 560) this.mybreakpoint = true ? 20 : 1;
     else if (this.window >= 550) this.mybreakpoint = true ? 11 : 1;
     else if (this.window >= 540) this.mybreakpoint = true ? 10 : 1;
     else if (this.window >= 530) this.mybreakpoint = true ? 9 : 1;
