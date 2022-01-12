@@ -13,16 +13,26 @@ export class FooterComponent implements OnInit {
 
   ngOnInit(): void {
     
-    if (this.window >= 601) this.mybreakpoint = true ? 64 : 1;
-    else if (this.window <= 600) this.mybreakpoint = true ? 36 : 1;
-    else if (this.window <= 400) this.mybreakpoint = true ? 4 : 1;
-    else if (this.window <= 200) this.mybreakpoint = true ? 1 : 4;
+    if (this.window >= 600) this.mybreakpoint = true ? 20 : 1;
+    else if (this.window >= 590) this.mybreakpoint = true ? 16 : 1;
+    else if (this.window >= 580) this.mybreakpoint = true ? 14 : 1;
+    else if (this.window >= 570) this.mybreakpoint = true ? 13 : 1;
+    else if (this.window >= 560) this.mybreakpoint = true ? 12 : 1;
+    else if (this.window >= 550) this.mybreakpoint = true ? 11 : 1;
+    else if (this.window >= 540) this.mybreakpoint = true ? 10 : 1;
+    else if (this.window >= 530) this.mybreakpoint = true ? 9 : 1;
+    else if (this.window >= 520) this.mybreakpoint = true ? 8 : 1;
   }
 
   handleSize(event) {
-    if (this.window >= 601) this.mybreakpoint = true ? 64 : 1;
-    else if (this.window <= 600) this.mybreakpoint = true ? 36 : 1;
-    else if (this.window <= 400) this.mybreakpoint = true ? 4 : 1;
-    else if (this.window <= 200) this.mybreakpoint = true ? 1 : 1;
+    if (this.window >= 600) this.mybreakpoint = true ? 20 : 1;
+    else if (this.window >= 590) this.mybreakpoint = true ? 16 : 1;
+    else if (this.window >= 580) this.mybreakpoint = true ? 14 : 1;
+    else if (this.window >= 570) this.mybreakpoint = true ? 13 : 1;
+    else if (this.window >= 560) this.mybreakpoint = true ? 12 : 1;
+    else if (this.window >= 550) this.mybreakpoint = true ? 11 : 1;
+    else if (this.window >= 540) this.mybreakpoint = true ? 10 : 1;
+    else if (this.window >= 530) this.mybreakpoint = true ? 9 : 1;
+    else if (this.window >= 520) this.mybreakpoint = true ? 8 : 1;
   }
 }
