@@ -25,11 +25,20 @@ footer {
 } */
 
 .container { 
-  padding-left: 1%;
-  padding-right: 1%;
-  line-height: 1;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: .25rem;
+  display: flex;
+  vertical-align: top;
 }
+.item {
 
+  flex-basis: 50%;
+  height: 1.25rem;
+  margin-left: 5px;
+  margin-right: 5px;
+  vertical-align: top;
+}
 /* section {
   letter-spacing: 1.5px;
     font-family: 'Questrial', sans-serif;
@@ -43,4 +52,5 @@ footer {
   letter-spacing: 1.5px;
   font-family: 'Questrial', sans-serif;
   font-size: 1.25vw;
+  vertical-align: top;
 }
